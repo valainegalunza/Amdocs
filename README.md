@@ -52,7 +52,6 @@ End Date: November 30, 2020
 Click Submit. This should be a successful input.
 
 2. Going back to IDE, Click 'Window' in the panel list above. Choose 'Files'. This should show the created file in this format: new_file_1234567_1234567890_today'sdate.txt
-Second Test Scenario: Invalid/Null/Empty input Test
 
 Second Test Scenario: Validation Testing
 1. Test the empty/null/invalid input: Click submit without putting any information. Validation messages will pop up upon doing this.
