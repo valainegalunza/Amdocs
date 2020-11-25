@@ -53,7 +53,7 @@ Click Submit. This should be a successful input.
 
 2. Going back to IDE, Click 'Window' in the panel list above. Choose 'Files'. This should show the created file in this format: new_file_1234567_1234567890_today'sdate.txt.
 
-NOTE: You can repeat testing with different but valid data to test if it will create a new file.
+NOTE: You can repeat testing with different but valid data. This is to test if it will create a new file.
 
 Second Test Scenario: Validation Testing
 1. Test the empty/null/invalid input: Click submit without putting any information. Validation messages will pop up upon doing this and won't let you submmit anything.
