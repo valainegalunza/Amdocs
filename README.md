@@ -33,10 +33,10 @@ Second Step: Open Project in Netbeans
 4. Click the folders until you see the amdocs Ma package, then click again to highlight.
 5. Click Open Project button. That will load the package in the IDE successfully.
 6. Going back to the IDE, right click the amdocs package inside the Projects box.
-7. Click on Build. This will download and install all the dependencies of the application. This is important step before running the main program.
+7. Click on 'Build'. This will download and install all the dependencies of the application. This is important step before running the main program.
 
 Third Step: Run the Program
-1. Right click again the amdocs package inside the Project Box. This will run the whole program.
+1. Right click again the amdocs package inside the Project Box and choose 'Run'. This will run the whole program.
 2. Go to your browser and load this link: http://localhost:8080/home ,You should see the UI.
 
 Fourth Step: Actual Testing
@@ -49,18 +49,24 @@ Comment: First test
 Start Date: Todays date
 End Date: November 30, 2020
 
-Click Submit. This should be a successful input.
+Click Submit. This should be a successful input. 
 
-2. Going back to IDE, Click 'Window' in the panel list above. Choose 'Files'. This should show the created file in this format: new_file_1234567_1234567890_today'sdate.txt
+2. Going back to IDE, Click 'Window' in the panel list above. Choose 'Files'. This should show the created file in this format: new_file_1234567_1234567890_today'sdate.txt.
+
+NOTE: You can repeat testing with different but valid data to test if it will create a new file.
 
 Second Test Scenario: Validation Testing
-1. Test the empty/null/invalid input: Click submit without putting any information. Validation messages will pop up upon doing this.
+1. Test the empty/null/invalid input: Click submit without putting any information. Validation messages will pop up upon doing this and won't let you submmit anything.
 2. Test invalid inputs (These tests shouldn't work and will produce a error)
 ID: Try numbers more than 7 digits or try an alphabet instead of number
 Number: Try numbers more than 10 digits or try an alphabet instead of number
 Comment: Try numbers more than 42 characters
+3. Test with only one field to be invalid and others are valid, click submit. It won't let you submit the valid information.
 
 
+Created by
+Valaine Galunza
+11/25/2020
 ==End of the Documentation==
 
 
